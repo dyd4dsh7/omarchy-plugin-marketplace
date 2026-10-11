@@ -325,3 +325,13 @@ test("built-in plugin author renders as plain text", () => {
   assert.match(html, /<span>by Example Maintainer<\/span>/);
   assert.doesNotMatch(html, /<a href="index\.html\?author=/);
 });
+
+
+test("opt-in brand preview supplies a safe decorative logo and preserves initials fallback", () => {
+  const html = render({ iconFromPreview: true, previewThumbnail: "assets/img/plugins/example-card.webp", previewImage: "assets/img/plugins/example-detail.webp" });
+  assert.match(html, /data-detail-logo src="assets\/img\/plugins\/example-card\.webp" alt=""/);
+  assert.match(html, /class="detail-icon" aria-hidden="true">CP<img/);
+  assert.match(html, /alt="Community Plugin logo"/);
+  assert.doesNotMatch(render({ iconFromPreview: true, previewThumbnail: "https://example.com/untrusted.png" }), /data-detail-logo/);
+  assert.doesNotMatch(render({ previewThumbnail: "assets/img/plugins/example-card.webp" }), /data-detail-logo/);
+});

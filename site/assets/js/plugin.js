@@ -161,8 +161,13 @@ export function detailTemplate(plugin, engagement, {
   const securityReportUrl = "https://github.com/omacom/omarchy-plugin-marketplace/security/advisories/new";
   const verificationRequestUrl = "https://github.com/omacom/omarchy-plugin-marketplace/issues/new?template=verify-plugin.yml";
   const tags = (plugin.tags || []).map((tag) => `<span class="tag">${escapeHtml(displayTaxonomyTag(tag))}</span>`).join("");
+  const logoSource = plugin.iconFromPreview === true
+    && /^assets\/img\/plugins\/[a-zA-Z0-9._-]+-card\.webp$/.test(plugin.previewThumbnail || "")
+      ? plugin.previewThumbnail : "";
+  const detailIcon = `${escapeHtml(plugin.initials)}${logoSource ? `<img data-detail-logo src="${escapeHtml(logoSource)}" alt="" width="52" height="52">` : ""}`;
+  const previewLabel = plugin.iconFromPreview === true ? "logo" : "desktop preview";
   const preview = plugin.previewImage
-    ? `<button class="detail-preview" type="button" data-preview-open data-full-src="${escapeHtml(plugin.previewImage)}" aria-label="${escapeHtml(`Open ${plugin.name} preview`)}"><img src="${escapeHtml(plugin.previewImage)}" alt="${escapeHtml(plugin.name)} desktop preview" width="${Number(plugin.previewWidth) || 1600}" height="${Number(plugin.previewHeight) || 900}"></button>`
+    ? `<button class="detail-preview" type="button" data-preview-open data-full-src="${escapeHtml(plugin.previewImage)}" aria-label="${escapeHtml(`Open ${plugin.name} preview`)}"><img src="${escapeHtml(plugin.previewImage)}" alt="${escapeHtml(plugin.name)} ${previewLabel}" width="${Number(plugin.previewWidth) || 1600}" height="${Number(plugin.previewHeight) || 900}"></button>`
     : "";
   const installAvailable = marketplaceInstallAvailable(plugin);
   const pluginStatus = displayedStatus(plugin);
@@ -306,7 +311,7 @@ export function detailTemplate(plugin, engagement, {
   return `
     <article class="plugin-detail-article" style="--card-accent:${accentColor(plugin.accent)}">
       <header class="page-header" id="overview"><div class="page-eyebrow">${escapeHtml(plugin.category)}</div>
-        <div class="detail-title"><span class="detail-icon">${escapeHtml(plugin.initials)}</span><h1>${escapeHtml(plugin.name)}</h1></div>
+        <div class="detail-title"><span class="detail-icon" aria-hidden="true">${detailIcon}</span><h1>${escapeHtml(plugin.name)}</h1></div>
         <div class="page-meta"><span>${escapeHtml(plugin.id)}</span>${manifestVersion}<span>by ${authorLink(plugin)}</span><span class="detail-status-meta"><span class="status ${statusTone(plugin)}"><i class="status-dot" aria-hidden="true"></i>${escapeHtml(pluginStatus)}</span>${verificationBadge}</span></div>
         ${engagementEnabled ? `<div class="detail-engagement-cluster">
           ${engagementSummary(plugin, engagement, { detail: true, pending: pendingEngagement })}
@@ -383,6 +388,7 @@ async function init() {
     });
     setupControlTooltips(content);
     setupDetailMetaLineStarts(content);
+    content.querySelector("[data-detail-logo]")?.addEventListener("error", (event) => event.currentTarget.remove());
     setupPreviewLightbox(content, document.querySelector("#preview-lightbox"));
     document.querySelector("#aside-verification-link").hidden = !content.querySelector("#verification");
     document.querySelector("#aside-security-link").hidden = !content.querySelector("#security");

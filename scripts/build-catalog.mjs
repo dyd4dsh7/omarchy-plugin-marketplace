@@ -45,7 +45,7 @@ export const catalogRefreshGraphqlPointsPerBatchReserve = 10;
 const catalogRefreshGraphqlAttempts = 3;
 const catalogRefreshRestBudgetAttempts = 3;
 export const catalogRefreshRestBudgetReserve = 500;
-export const catalogSourceValidationVersion = 1;
+export const catalogSourceValidationVersion = 2;
 const accents = ["lime", "amber", "coral", "cyan", "violet", "rose"];
 const supportedKinds = new Set(["bar", "bar-widget", "menu", "overlay", "panel", "service"]);
 const supportedPreviewFormats = new Set(["png", "jpeg", "webp", "avif", "heif"]);
@@ -1357,7 +1357,7 @@ function categoryFor(kinds = []) {
 }
 
 function registryPresentation(overrides = {}) {
-  const allowed = ["category", "tags", "accent", "initials", "kind"];
+  const allowed = ["category", "tags", "accent", "initials", "kind", "iconFromPreview"];
   return Object.fromEntries(
     allowed
       .filter((field) => overrides[field] !== undefined)
