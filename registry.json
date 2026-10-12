@@ -13846,8 +13846,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T02:37:37.397Z",
-      "listingValidatedCommit": "bc7e2c2f4c89c82712859aedb5a643b57ffad70c",
-      "listingValidatedAt": "2026-08-22T21:04:17.407Z",
+      "listingValidatedCommit": "bda347615e3b0ee92d02d1ca2fb0d488709afddb",
+      "listingValidatedAt": "2026-10-12T11:44:54.193Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -13856,12 +13856,14 @@
         "pluginIds": [
           "farangkao.emojis-nerd"
         ],
-        "commit": "bc7e2c2f4c89c82712859aedb5a643b57ffad70c",
-        "checkedAt": "2026-08-22T21:04:17.406Z",
-        "outcome": "passed",
+        "commit": "bda347615e3b0ee92d02d1ca2fb0d488709afddb",
+        "checkedAt": "2026-10-12T11:44:54.193Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "remote-build"
+        ]
       },
       "plugins": {
         "farangkao.emojis-nerd": {
@@ -13893,8 +13895,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "bc7e2c2f4c89c82712859aedb5a643b57ffad70c",
+          "validatedAt": "2026-08-22T21:04:17.407Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T11:44:54.193Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "farangkao/omarchy-emojis-nerd",
+            "pluginIds": [
+              "farangkao.emojis-nerd"
+            ],
+            "commit": "bc7e2c2f4c89c82712859aedb5a643b57ffad70c",
+            "checkedAt": "2026-08-22T21:04:17.406Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "farangkao/omarchy-emojis-nerd",
+        "pluginIds": [
+          "farangkao.emojis-nerd"
+        ],
+        "commit": "bda347615e3b0ee92d02d1ca2fb0d488709afddb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T11:44:54.193Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T09:34:50.652Z",
+        "requestEventId": 33043555440,
+        "requestedAt": "2026-10-12T11:44:25Z",
+        "reviewedAt": "2026-10-12T11:44:54.193Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jethrojones/tile-manager",
@@ -27896,8 +27939,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-19",
       "listedAt": "2026-08-19T18:30:35.067Z",
-      "listingValidatedCommit": "7f7d893c6ce1e31b593e1c1539434bd5073ccd35",
-      "listingValidatedAt": "2026-09-03T22:58:34.201Z",
+      "listingValidatedCommit": "e90fe57b8ac87cd9bb95088151fe7b0403ea9b58",
+      "listingValidatedAt": "2026-10-12T04:56:26.818Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -27906,8 +27949,8 @@
         "pluginIds": [
           "tenzin.live-wallpaper"
         ],
-        "commit": "7f7d893c6ce1e31b593e1c1539434bd5073ccd35",
-        "checkedAt": "2026-09-03T22:58:34.200Z",
+        "commit": "e90fe57b8ac87cd9bb95088151fe7b0403ea9b58",
+        "checkedAt": "2026-10-12T04:56:26.818Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -27958,6 +28001,26 @@
             ],
             "commit": "92ae4fa71ba16e0c766af75bc1f058e0b3cd3eda",
             "checkedAt": "2026-08-21T19:36:29.668Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "7f7d893c6ce1e31b593e1c1539434bd5073ccd35",
+          "validatedAt": "2026-09-03T22:58:34.201Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T04:56:26.818Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yesheytenzin/live-wallpaper",
+            "pluginIds": [
+              "tenzin.live-wallpaper"
+            ],
+            "commit": "7f7d893c6ce1e31b593e1c1539434bd5073ccd35",
+            "checkedAt": "2026-09-03T22:58:34.200Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -69308,8 +69371,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-24",
       "listedAt": "2026-08-24T20:53:10.311Z",
-      "listingValidatedCommit": "f962e2122e5a8021e4dc4329f03735e22f9dc7b5",
-      "listingValidatedAt": "2026-09-29T13:38:05.214Z",
+      "listingValidatedCommit": "c7535ff175a2784aface8b1f959089cc29ca0513",
+      "listingValidatedAt": "2026-10-12T00:42:57.928Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -69318,8 +69381,8 @@
         "pluginIds": [
           "case.monitor-switcher"
         ],
-        "commit": "f962e2122e5a8021e4dc4329f03735e22f9dc7b5",
-        "checkedAt": "2026-09-29T13:38:05.214Z",
+        "commit": "c7535ff175a2784aface8b1f959089cc29ca0513",
+        "checkedAt": "2026-10-12T00:42:57.928Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -69371,6 +69434,26 @@
             ],
             "commit": "9dfeeefcfdc8a5411eeefdab2471c572d3b5be30",
             "checkedAt": "2026-09-11T07:51:53.590Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "f962e2122e5a8021e4dc4329f03735e22f9dc7b5",
+          "validatedAt": "2026-09-29T13:38:05.214Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T00:42:57.928Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "amoltyagi/omarchy-monitor-switcher",
+            "pluginIds": [
+              "case.monitor-switcher"
+            ],
+            "commit": "f962e2122e5a8021e4dc4329f03735e22f9dc7b5",
+            "checkedAt": "2026-09-29T13:38:05.214Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -76100,8 +76183,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T14:17:04.572Z",
-      "listingValidatedCommit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
-      "listingValidatedAt": "2026-10-01T00:46:29.485Z",
+      "listingValidatedCommit": "b4ef783e14676099b9d6429304c57542ff948804",
+      "listingValidatedAt": "2026-10-12T03:28:35.145Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -76110,8 +76193,8 @@
         "pluginIds": [
           "kdk.omavless"
         ],
-        "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
-        "checkedAt": "2026-10-01T00:46:29.485Z",
+        "commit": "b4ef783e14676099b9d6429304c57542ff948804",
+        "checkedAt": "2026-10-12T03:28:35.145Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -76132,30 +76215,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "k-kostin/omavless",
-        "pluginIds": [
-          "kdk.omavless"
-        ],
-        "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T00:46:29.485Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "package-manager",
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T11:11:41.585Z",
-        "requestEventId": 32212015176,
-        "requestedAt": "2026-10-01T00:46:01Z",
-        "reviewedAt": "2026-10-01T00:46:29.485Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -76204,8 +76263,81 @@
             "reviewedAt": "2026-08-25T14:17:04.539Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+          "validatedAt": "2026-10-01T00:46:29.485Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T03:28:35.145Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "k-kostin/omavless",
+            "pluginIds": [
+              "kdk.omavless"
+            ],
+            "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+            "checkedAt": "2026-10-01T00:46:29.485Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager",
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "k-kostin/omavless",
+            "pluginIds": [
+              "kdk.omavless"
+            ],
+            "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T00:46:29.485Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager",
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T11:11:41.585Z",
+            "requestEventId": 32212015176,
+            "requestedAt": "2026-10-01T00:46:01Z",
+            "reviewedAt": "2026-10-01T00:46:29.485Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "k-kostin/omavless",
+        "pluginIds": [
+          "kdk.omavless"
+        ],
+        "commit": "b4ef783e14676099b9d6429304c57542ff948804",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T03:28:35.145Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T19:07:31.346Z",
+        "requestEventId": 33016603578,
+        "requestedAt": "2026-10-12T03:28:05Z",
+        "reviewedAt": "2026-10-12T03:28:35.145Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/luccast/omafrigate",
@@ -146203,8 +146335,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-05",
       "listedAt": "2026-09-05T22:50:01.724Z",
-      "listingValidatedCommit": "a07e8d257f6caa828bea4e5bc055d5567486e23f",
-      "listingValidatedAt": "2026-09-05T22:50:01.724Z",
+      "listingValidatedCommit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
+      "listingValidatedAt": "2026-10-12T02:27:27.247Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -146213,8 +146345,8 @@
         "pluginIds": [
           "io.github.selfcrypto.wireguard"
         ],
-        "commit": "a07e8d257f6caa828bea4e5bc055d5567486e23f",
-        "checkedAt": "2026-09-05T22:50:01.653Z",
+        "commit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
+        "checkedAt": "2026-10-12T02:27:27.247Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -146230,7 +146362,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a07e8d257f6caa828bea4e5bc055d5567486e23f",
+          "validatedAt": "2026-09-05T22:50:01.724Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T02:27:27.247Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "selfcrypto/omarchy-wireguard",
+            "pluginIds": [
+              "io.github.selfcrypto.wireguard"
+            ],
+            "commit": "a07e8d257f6caa828bea4e5bc055d5567486e23f",
+            "checkedAt": "2026-09-05T22:50:01.653Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nzkritik/omarchy-matrix-rain",
@@ -160393,8 +160547,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T12:51:12.937Z",
-      "listingValidatedCommit": "f185a8e71a29a10221dea3632da4febcfe702657",
-      "listingValidatedAt": "2026-09-08T12:51:12.937Z",
+      "listingValidatedCommit": "854a46ce84d04ab47d2df9dbe45f94b58ce552a4",
+      "listingValidatedAt": "2026-10-12T05:29:22.410Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -160403,8 +160557,8 @@
         "pluginIds": [
           "keasbeexd.spanned-background"
         ],
-        "commit": "f185a8e71a29a10221dea3632da4febcfe702657",
-        "checkedAt": "2026-09-08T12:51:12.841Z",
+        "commit": "854a46ce84d04ab47d2df9dbe45f94b58ce552a4",
+        "checkedAt": "2026-10-12T05:29:22.410Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -160420,7 +160574,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f185a8e71a29a10221dea3632da4febcfe702657",
+          "validatedAt": "2026-09-08T12:51:12.937Z",
+          "branch": "master",
+          "supersededAt": "2026-10-12T05:29:22.410Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "keasbeexd/omarchy-spanned-background",
+            "pluginIds": [
+              "keasbeexd.spanned-background"
+            ],
+            "commit": "f185a8e71a29a10221dea3632da4febcfe702657",
+            "checkedAt": "2026-09-08T12:51:12.841Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/OldJobobo/arcana",
@@ -161111,8 +161287,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T13:38:43.455Z",
-      "listingValidatedCommit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
-      "listingValidatedAt": "2026-10-07T14:19:49.128Z",
+      "listingValidatedCommit": "43371ba5395f58d569b67275504e0fa22be9309f",
+      "listingValidatedAt": "2026-10-12T00:02:33.688Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -161121,14 +161297,13 @@
         "pluginIds": [
           "sero.local-ai"
         ],
-        "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
-        "checkedAt": "2026-10-07T14:19:49.128Z",
+        "commit": "43371ba5395f58d569b67275504e0fa22be9309f",
+        "checkedAt": "2026-10-12T00:02:33.688Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "installer",
-          "package-manager"
+          "installer"
         ]
       },
       "plugins": {
@@ -161254,6 +161429,51 @@
             "reviewedAt": "2026-10-03T11:43:39.601Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+          "validatedAt": "2026-10-07T14:19:49.128Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T00:02:33.688Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+            "checkedAt": "2026-10-07T14:19:49.128Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T14:19:49.128Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T13:31:58.468Z",
+            "requestEventId": 32697569179,
+            "requestedAt": "2026-10-07T14:17:39Z",
+            "reviewedAt": "2026-10-07T14:19:49.128Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -161262,20 +161482,19 @@
         "pluginIds": [
           "sero.local-ai"
         ],
-        "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+        "commit": "43371ba5395f58d569b67275504e0fa22be9309f",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T14:19:49.128Z",
+        "baselineCheckedAt": "2026-10-12T00:02:33.688Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
-          "installer",
-          "package-manager"
+          "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-07T13:31:58.468Z",
-        "requestEventId": 32697569179,
-        "requestedAt": "2026-10-07T14:17:39Z",
-        "reviewedAt": "2026-10-07T14:19:49.128Z",
+        "reviewedBaselineCheckedAt": "2026-10-11T23:09:21.443Z",
+        "requestEventId": 33009514114,
+        "requestedAt": "2026-10-12T00:02:06Z",
+        "reviewedAt": "2026-10-12T00:02:33.688Z",
         "reviewer": "HANCORE-linux"
       }
     },
@@ -191915,8 +192134,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-15",
       "listedAt": "2026-09-15T22:17:21.865Z",
-      "listingValidatedCommit": "7250efd549485abbed9d336d6908a599187b4942",
-      "listingValidatedAt": "2026-09-15T22:17:21.865Z",
+      "listingValidatedCommit": "e7872c5818d6b0db3295003cff3352dab736dff7",
+      "listingValidatedAt": "2026-10-12T11:55:47.427Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -191925,37 +192144,16 @@
         "pluginIds": [
           "matteodevenuto.corsair-cooling"
         ],
-        "commit": "7250efd549485abbed9d336d6908a599187b4942",
-        "checkedAt": "2026-09-15T22:17:21.791Z",
+        "commit": "e7872c5818d6b0db3295003cff3352dab736dff7",
+        "checkedAt": "2026-10-12T11:55:47.427Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
-          "package-manager"
+          "package-manager",
+          "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "matteodevenuto/omarchy-corsair-cooling",
-        "pluginIds": [
-          "matteodevenuto.corsair-cooling"
-        ],
-        "commit": "7250efd549485abbed9d336d6908a599187b4942",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-15T22:17:21.791Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-14T13:53:36.784Z",
-        "requestEventId": 31206871345,
-        "requestedAt": "2026-09-15T22:09:36Z",
-        "reviewedAt": "2026-09-15T22:17:21.791Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "matteodevenuto.corsair-cooling": {
@@ -191967,7 +192165,77 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "matteodevenuto/omarchy-corsair-cooling",
+        "pluginIds": [
+          "matteodevenuto.corsair-cooling"
+        ],
+        "commit": "e7872c5818d6b0db3295003cff3352dab736dff7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T11:55:47.427Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T09:37:08.783Z",
+        "requestEventId": 33044268457,
+        "requestedAt": "2026-10-12T11:55:16Z",
+        "reviewedAt": "2026-10-12T11:55:47.427Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7250efd549485abbed9d336d6908a599187b4942",
+          "validatedAt": "2026-09-15T22:17:21.865Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T11:55:47.427Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "matteodevenuto/omarchy-corsair-cooling",
+            "pluginIds": [
+              "matteodevenuto.corsair-cooling"
+            ],
+            "commit": "7250efd549485abbed9d336d6908a599187b4942",
+            "checkedAt": "2026-09-15T22:17:21.791Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "matteodevenuto/omarchy-corsair-cooling",
+            "pluginIds": [
+              "matteodevenuto.corsair-cooling"
+            ],
+            "commit": "7250efd549485abbed9d336d6908a599187b4942",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-15T22:17:21.791Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-14T13:53:36.784Z",
+            "requestEventId": 31206871345,
+            "requestedAt": "2026-09-15T22:09:36Z",
+            "reviewedAt": "2026-09-15T22:17:21.791Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ecylmz/omarchy-spaceview",
@@ -220600,8 +220868,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T18:12:51.409Z",
-      "listingValidatedCommit": "73fd8eca38b560c876f374770ea65c28988cefe8",
-      "listingValidatedAt": "2026-10-03T08:12:10.375Z",
+      "listingValidatedCommit": "ae7427ce18a3f8c3750a0f28153b4f93eb44e8d3",
+      "listingValidatedAt": "2026-10-12T15:30:24.909Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -220610,8 +220878,8 @@
         "pluginIds": [
           "ozdil.omarss"
         ],
-        "commit": "73fd8eca38b560c876f374770ea65c28988cefe8",
-        "checkedAt": "2026-10-03T08:12:10.375Z",
+        "commit": "ae7427ce18a3f8c3750a0f28153b4f93eb44e8d3",
+        "checkedAt": "2026-10-12T15:30:24.909Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -220642,6 +220910,26 @@
             ],
             "commit": "d0ce844fe6fa7fe9a4640d8f39062ce41cef710a",
             "checkedAt": "2026-09-21T18:12:51.314Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "73fd8eca38b560c876f374770ea65c28988cefe8",
+          "validatedAt": "2026-10-03T08:12:10.375Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T15:30:24.909Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-omarss",
+            "pluginIds": [
+              "ozdil.omarss"
+            ],
+            "commit": "73fd8eca38b560c876f374770ea65c28988cefe8",
+            "checkedAt": "2026-10-03T08:12:10.375Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -235838,8 +236126,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T19:39:23.256Z",
-      "listingValidatedCommit": "a0b7986c3bd366bc00ae25fb6482a7534518658f",
-      "listingValidatedAt": "2026-10-06T12:11:39.939Z",
+      "listingValidatedCommit": "e843a80bee4bf90c77746d5948326d57ee2a6ced",
+      "listingValidatedAt": "2026-10-12T12:56:14.303Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -235848,8 +236136,8 @@
         "pluginIds": [
           "yuri.cmdpp"
         ],
-        "commit": "a0b7986c3bd366bc00ae25fb6482a7534518658f",
-        "checkedAt": "2026-10-06T12:11:39.939Z",
+        "commit": "e843a80bee4bf90c77746d5948326d57ee2a6ced",
+        "checkedAt": "2026-10-12T12:56:14.303Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -235901,6 +236189,26 @@
             ],
             "commit": "5ef1dc0ecfe534c01779a74fcda3742e752d18d9",
             "checkedAt": "2026-10-01T08:20:39.498Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "a0b7986c3bd366bc00ae25fb6482a7534518658f",
+          "validatedAt": "2026-10-06T12:11:39.939Z",
+          "branch": "master",
+          "supersededAt": "2026-10-12T12:56:14.303Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hyuricane/omarchy-cmdpp",
+            "pluginIds": [
+              "yuri.cmdpp"
+            ],
+            "commit": "a0b7986c3bd366bc00ae25fb6482a7534518658f",
+            "checkedAt": "2026-10-06T12:11:39.939Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -246795,8 +247103,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T09:42:48.609Z",
-      "listingValidatedCommit": "8e0805e9270c8276814248673cf55250cc0c63ec",
-      "listingValidatedAt": "2026-10-07T20:58:32.878Z",
+      "listingValidatedCommit": "64c73640ec0be99537e594f66c2da984d155860c",
+      "listingValidatedAt": "2026-10-11T22:18:46.782Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -246805,8 +247113,8 @@
         "pluginIds": [
           "gregl83.plancks"
         ],
-        "commit": "8e0805e9270c8276814248673cf55250cc0c63ec",
-        "checkedAt": "2026-10-07T20:58:32.878Z",
+        "commit": "64c73640ec0be99537e594f66c2da984d155860c",
+        "checkedAt": "2026-10-11T22:18:46.782Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -246953,6 +247261,49 @@
             "reviewedAt": "2026-10-07T03:07:40.937Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8e0805e9270c8276814248673cf55250cc0c63ec",
+          "validatedAt": "2026-10-07T20:58:32.878Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T22:18:46.782Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gregl83/omarchy-plancks",
+            "pluginIds": [
+              "gregl83.plancks"
+            ],
+            "commit": "8e0805e9270c8276814248673cf55250cc0c63ec",
+            "checkedAt": "2026-10-07T20:58:32.878Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gregl83/omarchy-plancks",
+            "pluginIds": [
+              "gregl83.plancks"
+            ],
+            "commit": "8e0805e9270c8276814248673cf55250cc0c63ec",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T20:58:32.878Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T20:48:31.291Z",
+            "requestEventId": 32726014789,
+            "requestedAt": "2026-10-07T20:58:06Z",
+            "reviewedAt": "2026-10-07T20:58:32.878Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -246961,19 +247312,19 @@
         "pluginIds": [
           "gregl83.plancks"
         ],
-        "commit": "8e0805e9270c8276814248673cf55250cc0c63ec",
+        "commit": "64c73640ec0be99537e594f66c2da984d155860c",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T20:58:32.878Z",
+        "baselineCheckedAt": "2026-10-11T22:18:46.782Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-07T20:48:31.291Z",
-        "requestEventId": 32726014789,
-        "requestedAt": "2026-10-07T20:58:06Z",
-        "reviewedAt": "2026-10-07T20:58:32.878Z",
+        "reviewedBaselineCheckedAt": "2026-10-11T19:58:33.593Z",
+        "requestEventId": 33006175403,
+        "requestedAt": "2026-10-11T22:16:42Z",
+        "reviewedAt": "2026-10-11T22:18:46.782Z",
         "reviewer": "HANCORE-linux"
       }
     },
@@ -254984,8 +255335,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:08:06.002Z",
-      "listingValidatedCommit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
-      "listingValidatedAt": "2026-10-09T10:15:46.255Z",
+      "listingValidatedCommit": "4b453a2ae31b265453695dfea393a9abbaa1be91",
+      "listingValidatedAt": "2026-10-12T11:02:42.837Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -254994,8 +255345,8 @@
         "pluginIds": [
           "foamy.vitals"
         ],
-        "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
-        "checkedAt": "2026-10-09T10:15:46.254Z",
+        "commit": "4b453a2ae31b265453695dfea393a9abbaa1be91",
+        "checkedAt": "2026-10-12T11:02:42.837Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -255027,6 +255378,26 @@
             ],
             "commit": "fc86c676c07c1876f796a72abb8315bdb4ef3908",
             "checkedAt": "2026-09-27T14:08:05.896Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
+          "validatedAt": "2026-10-09T10:15:46.255Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T11:02:42.837Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-vitals",
+            "pluginIds": [
+              "foamy.vitals"
+            ],
+            "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
+            "checkedAt": "2026-10-09T10:15:46.254Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -260674,8 +261045,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:26:09.193Z",
-      "listingValidatedCommit": "338943340be88811d33113ac0d6f18180372b452",
-      "listingValidatedAt": "2026-10-02T20:36:06.519Z",
+      "listingValidatedCommit": "e3e6998fcfd583537710391172827dccd7a50146",
+      "listingValidatedAt": "2026-10-11T22:22:19.339Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260684,8 +261055,8 @@
         "pluginIds": [
           "derekross.opal"
         ],
-        "commit": "338943340be88811d33113ac0d6f18180372b452",
-        "checkedAt": "2026-10-02T20:36:06.519Z",
+        "commit": "e3e6998fcfd583537710391172827dccd7a50146",
+        "checkedAt": "2026-10-11T22:22:19.339Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -260711,31 +261082,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "derekross/opal",
-        "pluginIds": [
-          "derekross.opal"
-        ],
-        "commit": "338943340be88811d33113ac0d6f18180372b452",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T20:36:06.519Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T19:20:09.738Z",
-        "requestEventId": 32363963235,
-        "requestedAt": "2026-10-02T20:35:32Z",
-        "reviewedAt": "2026-10-02T20:36:06.519Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -260788,8 +261134,84 @@
             "reviewedAt": "2026-09-27T23:26:09.091Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "338943340be88811d33113ac0d6f18180372b452",
+          "validatedAt": "2026-10-02T20:36:06.519Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T22:22:19.339Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "derekross/opal",
+            "pluginIds": [
+              "derekross.opal"
+            ],
+            "commit": "338943340be88811d33113ac0d6f18180372b452",
+            "checkedAt": "2026-10-02T20:36:06.519Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "derekross/opal",
+            "pluginIds": [
+              "derekross.opal"
+            ],
+            "commit": "338943340be88811d33113ac0d6f18180372b452",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T20:36:06.519Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T19:20:09.738Z",
+            "requestEventId": 32363963235,
+            "requestedAt": "2026-10-02T20:35:32Z",
+            "reviewedAt": "2026-10-02T20:36:06.519Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "derekross/opal",
+        "pluginIds": [
+          "derekross.opal"
+        ],
+        "commit": "e3e6998fcfd583537710391172827dccd7a50146",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:22:19.339Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T19:48:54.553Z",
+        "requestEventId": 33006349107,
+        "requestedAt": "2026-10-11T22:21:50Z",
+        "reviewedAt": "2026-10-11T22:22:19.339Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/LessUnderRated/geoguess",
@@ -274410,8 +274832,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:48:32.303Z",
-      "listingValidatedCommit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-      "listingValidatedAt": "2026-10-01T02:48:32.303Z",
+      "listingValidatedCommit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+      "listingValidatedAt": "2026-10-12T01:31:04.446Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -274420,39 +274842,17 @@
         "pluginIds": [
           "ubruckhaus.video-trans"
         ],
-        "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-        "checkedAt": "2026-10-01T02:48:32.216Z",
+        "commit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+        "checkedAt": "2026-10-12T01:31:04.446Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager",
           "service-management",
-          "installer"
+          "installer",
+          "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ubruckhaus/omarchy-video-trans",
-        "pluginIds": [
-          "ubruckhaus.video-trans"
-        ],
-        "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T02:48:32.216Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T02:45:43.474Z",
-        "requestEventId": 32217398194,
-        "requestedAt": "2026-10-01T02:47:55Z",
-        "reviewedAt": "2026-10-01T02:48:32.216Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ubruckhaus.video-trans": {
@@ -274468,7 +274868,80 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-video-trans",
+        "pluginIds": [
+          "ubruckhaus.video-trans"
+        ],
+        "commit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:31:04.446Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T00:16:29.211Z",
+        "requestEventId": 33012470305,
+        "requestedAt": "2026-10-12T01:30:40Z",
+        "reviewedAt": "2026-10-12T01:31:04.446Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+          "validatedAt": "2026-10-01T02:48:32.303Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T01:31:04.446Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+            "checkedAt": "2026-10-01T02:48:32.216Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T02:48:32.216Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T02:45:43.474Z",
+            "requestEventId": 32217398194,
+            "requestedAt": "2026-10-01T02:47:55Z",
+            "reviewedAt": "2026-10-01T02:48:32.216Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/TarikDruzich/focus-timer",
@@ -278029,8 +278502,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T16:55:30.760Z",
-      "listingValidatedCommit": "836cee12543db66cecc5830a290da620c5727c30",
-      "listingValidatedAt": "2026-10-11T21:39:50.140Z",
+      "listingValidatedCommit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+      "listingValidatedAt": "2026-10-12T00:50:20.062Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -278039,8 +278512,8 @@
         "pluginIds": [
           "ubruckhaus.simple-reader"
         ],
-        "commit": "836cee12543db66cecc5830a290da620c5727c30",
-        "checkedAt": "2026-10-11T21:39:50.140Z",
+        "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+        "checkedAt": "2026-10-12T00:50:20.062Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -278065,30 +278538,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ubruckhaus/omarchy-simple-reader",
-        "pluginIds": [
-          "ubruckhaus.simple-reader"
-        ],
-        "commit": "836cee12543db66cecc5830a290da620c5727c30",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T21:39:50.140Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T19:59:53.978Z",
-        "requestEventId": 33004919946,
-        "requestedAt": "2026-10-11T21:39:17Z",
-        "reviewedAt": "2026-10-11T21:39:50.140Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -278139,8 +278588,81 @@
             "reviewedAt": "2026-10-01T16:55:30.637Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "836cee12543db66cecc5830a290da620c5727c30",
+          "validatedAt": "2026-10-11T21:39:50.140Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T00:50:20.062Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-simple-reader",
+            "pluginIds": [
+              "ubruckhaus.simple-reader"
+            ],
+            "commit": "836cee12543db66cecc5830a290da620c5727c30",
+            "checkedAt": "2026-10-11T21:39:50.140Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-simple-reader",
+            "pluginIds": [
+              "ubruckhaus.simple-reader"
+            ],
+            "commit": "836cee12543db66cecc5830a290da620c5727c30",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T21:39:50.140Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T19:59:53.978Z",
+            "requestEventId": 33004919946,
+            "requestedAt": "2026-10-11T21:39:17Z",
+            "reviewedAt": "2026-10-11T21:39:50.140Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-simple-reader",
+        "pluginIds": [
+          "ubruckhaus.simple-reader"
+        ],
+        "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T00:50:20.062Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T00:13:13.463Z",
+        "requestEventId": 33011087683,
+        "requestedAt": "2026-10-12T00:49:54Z",
+        "reviewedAt": "2026-10-12T00:50:20.062Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jgarza9788/notification",
@@ -292060,8 +292582,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T23:36:44.763Z",
-      "listingValidatedCommit": "5aae9815e6ad032acef20668c07334f5f478f4c5",
-      "listingValidatedAt": "2026-10-03T08:47:16.141Z",
+      "listingValidatedCommit": "92c9ad2bb7904684d9d9dcbbd2377caf444f8924",
+      "listingValidatedAt": "2026-10-12T00:19:49.845Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -292070,8 +292592,8 @@
         "pluginIds": [
           "more-time"
         ],
-        "commit": "5aae9815e6ad032acef20668c07334f5f478f4c5",
-        "checkedAt": "2026-10-03T08:47:16.141Z",
+        "commit": "92c9ad2bb7904684d9d9dcbbd2377caf444f8924",
+        "checkedAt": "2026-10-12T00:19:49.845Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -292102,6 +292624,26 @@
             ],
             "commit": "76561d54cf580c23d256893bae3957c1f027c8d1",
             "checkedAt": "2026-10-02T23:36:44.652Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "5aae9815e6ad032acef20668c07334f5f478f4c5",
+          "validatedAt": "2026-10-03T08:47:16.141Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T00:19:49.845Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "t-the-coder/more-time",
+            "pluginIds": [
+              "more-time"
+            ],
+            "commit": "5aae9815e6ad032acef20668c07334f5f478f4c5",
+            "checkedAt": "2026-10-03T08:47:16.141Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -298754,8 +299296,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T12:58:24.643Z",
-      "listingValidatedCommit": "5400546ad340c78073a37607373086d3cf9607dc",
-      "listingValidatedAt": "2026-10-09T17:36:49.061Z",
+      "listingValidatedCommit": "398a6c1178e9bcc3133dd4f2afdd49d2ff8c5eff",
+      "listingValidatedAt": "2026-10-12T10:47:07.093Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -298764,8 +299306,8 @@
         "pluginIds": [
           "andy.side-panel"
         ],
-        "commit": "5400546ad340c78073a37607373086d3cf9607dc",
-        "checkedAt": "2026-10-09T17:36:49.061Z",
+        "commit": "398a6c1178e9bcc3133dd4f2afdd49d2ff8c5eff",
+        "checkedAt": "2026-10-12T10:47:07.093Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -298931,6 +299473,53 @@
             "reviewedAt": "2026-10-06T03:15:41.673Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5400546ad340c78073a37607373086d3cf9607dc",
+          "validatedAt": "2026-10-09T17:36:49.061Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T10:47:07.093Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-side-panel",
+            "pluginIds": [
+              "andy.side-panel"
+            ],
+            "commit": "5400546ad340c78073a37607373086d3cf9607dc",
+            "checkedAt": "2026-10-09T17:36:49.061Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-side-panel",
+            "pluginIds": [
+              "andy.side-panel"
+            ],
+            "commit": "5400546ad340c78073a37607373086d3cf9607dc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T17:36:49.061Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T17:02:48.731Z",
+            "requestEventId": 32896384240,
+            "requestedAt": "2026-10-09T17:36:17Z",
+            "reviewedAt": "2026-10-09T17:36:49.061Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -298939,10 +299528,10 @@
         "pluginIds": [
           "andy.side-panel"
         ],
-        "commit": "5400546ad340c78073a37607373086d3cf9607dc",
+        "commit": "398a6c1178e9bcc3133dd4f2afdd49d2ff8c5eff",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T17:36:49.061Z",
+        "baselineCheckedAt": "2026-10-12T10:47:07.093Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -298950,10 +299539,10 @@
           "installer",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-09T17:02:48.731Z",
-        "requestEventId": 32896384240,
-        "requestedAt": "2026-10-09T17:36:17Z",
-        "reviewedAt": "2026-10-09T17:36:49.061Z",
+        "reviewedBaselineCheckedAt": "2026-10-12T06:32:47.507Z",
+        "requestEventId": 33039802207,
+        "requestedAt": "2026-10-12T10:46:40Z",
+        "reviewedAt": "2026-10-12T10:47:07.093Z",
         "reviewer": "HANCORE-linux"
       }
     },
@@ -301539,8 +302128,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T23:13:50.491Z",
-      "listingValidatedCommit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
-      "listingValidatedAt": "2026-10-07T19:54:39.659Z",
+      "listingValidatedCommit": "ee8d6783eaeca0e4c7c178aac5cadc3e9b58cccc",
+      "listingValidatedAt": "2026-10-11T22:42:27.232Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -301549,8 +302138,8 @@
         "pluginIds": [
           "io.github.qempexe.dev-stats"
         ],
-        "commit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
-        "checkedAt": "2026-10-07T19:54:39.659Z",
+        "commit": "ee8d6783eaeca0e4c7c178aac5cadc3e9b58cccc",
+        "checkedAt": "2026-10-11T22:42:27.232Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -301582,6 +302171,26 @@
             ],
             "commit": "4c004c9b0ec24e58d71c30a12288d6a76a03ee04",
             "checkedAt": "2026-10-04T23:13:50.364Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
+          "validatedAt": "2026-10-07T19:54:39.659Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T22:42:27.232Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-dev-stats",
+            "pluginIds": [
+              "io.github.qempexe.dev-stats"
+            ],
+            "commit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
+            "checkedAt": "2026-10-07T19:54:39.659Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -313183,8 +313792,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T04:35:10.899Z",
-      "listingValidatedCommit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
-      "listingValidatedAt": "2026-10-07T04:35:10.899Z",
+      "listingValidatedCommit": "3437c334038ed16ac0c97a2debb860137f0868d0",
+      "listingValidatedAt": "2026-10-12T00:13:18.602Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -313193,8 +313802,8 @@
         "pluginIds": [
           "grivera.omapier"
         ],
-        "commit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
-        "checkedAt": "2026-10-07T04:35:10.796Z",
+        "commit": "3437c334038ed16ac0c97a2debb860137f0868d0",
+        "checkedAt": "2026-10-12T00:13:18.602Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -313210,7 +313819,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
+          "validatedAt": "2026-10-07T04:35:10.899Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T00:13:18.602Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "grivera82/omapier",
+            "pluginIds": [
+              "grivera.omapier"
+            ],
+            "commit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
+            "checkedAt": "2026-10-07T04:35:10.796Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/saigkill/omarchy-lifechart",
@@ -314318,8 +314949,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T10:56:28.575Z",
-      "listingValidatedCommit": "0c742eadc3c92cd64fa6b7aaf5ca5c1e4fdebfa7",
-      "listingValidatedAt": "2026-10-11T12:23:16.081Z",
+      "listingValidatedCommit": "f8a31ccd4c0f470e75166b3b01f9b31feab671ad",
+      "listingValidatedAt": "2026-10-11T21:56:17.558Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -314328,8 +314959,8 @@
         "pluginIds": [
           "io.github.qempexe.omanager"
         ],
-        "commit": "0c742eadc3c92cd64fa6b7aaf5ca5c1e4fdebfa7",
-        "checkedAt": "2026-10-11T12:23:16.081Z",
+        "commit": "f8a31ccd4c0f470e75166b3b01f9b31feab671ad",
+        "checkedAt": "2026-10-11T21:56:17.558Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -314441,6 +315072,26 @@
             ],
             "commit": "5baec4168df7e951f92735ae195c79e03aaa8373",
             "checkedAt": "2026-10-11T11:49:12.998Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "0c742eadc3c92cd64fa6b7aaf5ca5c1e4fdebfa7",
+          "validatedAt": "2026-10-11T12:23:16.081Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T21:56:17.558Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-omanager",
+            "pluginIds": [
+              "io.github.qempexe.omanager"
+            ],
+            "commit": "0c742eadc3c92cd64fa6b7aaf5ca5c1e4fdebfa7",
+            "checkedAt": "2026-10-11T12:23:16.081Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -318479,8 +319130,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T13:52:36.008Z",
-      "listingValidatedCommit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
-      "listingValidatedAt": "2026-10-08T17:57:21.726Z",
+      "listingValidatedCommit": "0757d858de99589f5367003188174a96455fd9cc",
+      "listingValidatedAt": "2026-10-12T00:57:02.792Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -318489,8 +319140,8 @@
         "pluginIds": [
           "io.github.qempexe.omatune"
         ],
-        "commit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
-        "checkedAt": "2026-10-08T17:57:21.726Z",
+        "commit": "0757d858de99589f5367003188174a96455fd9cc",
+        "checkedAt": "2026-10-12T00:57:02.791Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -318526,6 +319177,26 @@
             ],
             "commit": "af9d3b3edeff06c362b9c4dc9bf59773b62942fd",
             "checkedAt": "2026-10-08T13:52:35.859Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
+          "validatedAt": "2026-10-08T17:57:21.726Z",
+          "branch": "master",
+          "supersededAt": "2026-10-12T00:57:02.792Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-omatune",
+            "pluginIds": [
+              "io.github.qempexe.omatune"
+            ],
+            "commit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
+            "checkedAt": "2026-10-08T17:57:21.726Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -321292,8 +321963,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-09",
       "listedAt": "2026-10-09T13:47:13.069Z",
-      "listingValidatedCommit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
-      "listingValidatedAt": "2026-10-09T13:47:13.069Z",
+      "listingValidatedCommit": "fdb50c49c8a31b8d1f8a05b1b3c2567a31a499b7",
+      "listingValidatedAt": "2026-10-12T04:16:58.491Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -321302,8 +321973,8 @@
         "pluginIds": [
           "songlairui.grokbot-usage"
         ],
-        "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
-        "checkedAt": "2026-10-09T13:47:12.929Z",
+        "commit": "fdb50c49c8a31b8d1f8a05b1b3c2567a31a499b7",
+        "checkedAt": "2026-10-12T04:16:58.491Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -321319,7 +321990,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+          "validatedAt": "2026-10-09T13:47:13.069Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T04:16:58.491Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "songlairui/omarchy-grokbot-usage",
+            "pluginIds": [
+              "songlairui.grokbot-usage"
+            ],
+            "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+            "checkedAt": "2026-10-09T13:47:12.929Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/geoweir/zabbix-bar",
@@ -322989,8 +323682,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T02:01:16.149Z",
-      "listingValidatedCommit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
-      "listingValidatedAt": "2026-10-10T02:01:16.149Z",
+      "listingValidatedCommit": "94464be19b8d3241d58522aba7f9472987e7f61b",
+      "listingValidatedAt": "2026-10-12T03:05:59.651Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -322999,8 +323692,8 @@
         "pluginIds": [
           "pwnsxb.2048"
         ],
-        "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
-        "checkedAt": "2026-10-10T02:01:16.036Z",
+        "commit": "94464be19b8d3241d58522aba7f9472987e7f61b",
+        "checkedAt": "2026-10-12T03:05:59.651Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -323016,7 +323709,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
+          "validatedAt": "2026-10-10T02:01:16.149Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T03:05:59.651Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pwn27sbx/2048",
+            "pluginIds": [
+              "pwnsxb.2048"
+            ],
+            "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
+            "checkedAt": "2026-10-10T02:01:16.036Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/latentoperator/omarchy-audible",
@@ -323086,8 +323801,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T03:08:30.571Z",
-      "listingValidatedCommit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-      "listingValidatedAt": "2026-10-11T20:52:14.872Z",
+      "listingValidatedCommit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+      "listingValidatedAt": "2026-10-12T04:14:07.585Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -323096,8 +323811,8 @@
         "pluginIds": [
           "richardb.yagi"
         ],
-        "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-        "checkedAt": "2026-10-11T20:52:14.872Z",
+        "commit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+        "checkedAt": "2026-10-12T04:14:07.585Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -323116,30 +323831,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rickbacci/yagi",
-        "pluginIds": [
-          "richardb.yagi"
-        ],
-        "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T20:52:14.872Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T20:45:18.724Z",
-        "requestEventId": 33003230345,
-        "requestedAt": "2026-10-11T20:51:44Z",
-        "reviewedAt": "2026-10-11T20:52:14.872Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -323188,8 +323879,81 @@
             "reviewedAt": "2026-10-10T03:08:30.451Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+          "validatedAt": "2026-10-11T20:52:14.872Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T04:14:07.585Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rickbacci/yagi",
+            "pluginIds": [
+              "richardb.yagi"
+            ],
+            "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+            "checkedAt": "2026-10-11T20:52:14.872Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rickbacci/yagi",
+            "pluginIds": [
+              "richardb.yagi"
+            ],
+            "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T20:52:14.872Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T20:45:18.724Z",
+            "requestEventId": 33003230345,
+            "requestedAt": "2026-10-11T20:51:44Z",
+            "reviewedAt": "2026-10-11T20:52:14.872Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rickbacci/yagi",
+        "pluginIds": [
+          "richardb.yagi"
+        ],
+        "commit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T04:14:07.585Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:29:54.272Z",
+        "requestEventId": 33018272033,
+        "requestedAt": "2026-10-12T04:13:37Z",
+        "reviewedAt": "2026-10-12T04:14:07.585Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/thevideinfra/omarunner",
@@ -324006,8 +324770,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T11:51:33.649Z",
-      "listingValidatedCommit": "dede657ce41d2e8eb9c96eabb272c07719d289b6",
-      "listingValidatedAt": "2026-10-10T19:24:29.794Z",
+      "listingValidatedCommit": "009cff54a408ffdec90a3ce5f699583c07de2447",
+      "listingValidatedAt": "2026-10-12T12:17:21.398Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -324016,8 +324780,8 @@
         "pluginIds": [
           "ubruckhaus.wlan-monitor"
         ],
-        "commit": "dede657ce41d2e8eb9c96eabb272c07719d289b6",
-        "checkedAt": "2026-10-10T19:24:29.794Z",
+        "commit": "009cff54a408ffdec90a3ce5f699583c07de2447",
+        "checkedAt": "2026-10-12T12:17:21.398Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -324048,6 +324812,46 @@
             ],
             "commit": "5f8ffd47184515996de3b5a90a804deb6189210a",
             "checkedAt": "2026-10-10T11:51:33.525Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "dede657ce41d2e8eb9c96eabb272c07719d289b6",
+          "validatedAt": "2026-10-10T19:24:29.794Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T10:33:25.851Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-wlan-monitor",
+            "pluginIds": [
+              "ubruckhaus.wlan-monitor"
+            ],
+            "commit": "dede657ce41d2e8eb9c96eabb272c07719d289b6",
+            "checkedAt": "2026-10-10T19:24:29.794Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "febed3a7e750ae5b90d4eb5732feee771a420aca",
+          "validatedAt": "2026-10-12T10:33:25.851Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T12:17:21.398Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-wlan-monitor",
+            "pluginIds": [
+              "ubruckhaus.wlan-monitor"
+            ],
+            "commit": "febed3a7e750ae5b90d4eb5732feee771a420aca",
+            "checkedAt": "2026-10-12T10:33:25.851Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
@@ -324324,8 +325128,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T14:09:30.587Z",
-      "listingValidatedCommit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
-      "listingValidatedAt": "2026-10-10T14:09:30.587Z",
+      "listingValidatedCommit": "31c57ae91b067ae3e685cfe7cbdc688d89ba6a33",
+      "listingValidatedAt": "2026-10-11T23:21:56.599Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -324334,35 +325138,14 @@
         "pluginIds": [
           "io.github.bmaltais.startbar"
         ],
-        "commit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
-        "checkedAt": "2026-10-10T14:09:30.456Z",
+        "commit": "31c57ae91b067ae3e685cfe7cbdc688d89ba6a33",
+        "checkedAt": "2026-10-11T23:21:56.599Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bmaltais/startbar",
-        "pluginIds": [
-          "io.github.bmaltais.startbar"
-        ],
-        "commit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-10T14:09:30.456Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-10T14:01:06.144Z",
-        "requestEventId": 32943919565,
-        "requestedAt": "2026-10-10T14:09:01Z",
-        "reviewedAt": "2026-10-10T14:09:30.456Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.bmaltais.startbar": {
@@ -324374,7 +325157,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bmaltais/startbar",
+        "pluginIds": [
+          "io.github.bmaltais.startbar"
+        ],
+        "commit": "31c57ae91b067ae3e685cfe7cbdc688d89ba6a33",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T23:21:56.599Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T23:02:15.211Z",
+        "requestEventId": 33008278320,
+        "requestedAt": "2026-10-11T23:21:25Z",
+        "reviewedAt": "2026-10-11T23:21:56.599Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
+          "validatedAt": "2026-10-10T14:09:30.587Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T23:21:56.599Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bmaltais/startbar",
+            "pluginIds": [
+              "io.github.bmaltais.startbar"
+            ],
+            "commit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
+            "checkedAt": "2026-10-10T14:09:30.456Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bmaltais/startbar",
+            "pluginIds": [
+              "io.github.bmaltais.startbar"
+            ],
+            "commit": "2235c0d4965fa10998e01183e0328f3dfdc489c0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-10T14:09:30.456Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-10T14:01:06.144Z",
+            "requestEventId": 32943919565,
+            "requestedAt": "2026-10-10T14:09:01Z",
+            "reviewedAt": "2026-10-10T14:09:30.456Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/cynricantao/omarchy-spotlight",
@@ -324756,8 +325605,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T17:09:24.781Z",
-      "listingValidatedCommit": "1790be45b00c4c37144ebfc57d3bc512d5baa1ae",
-      "listingValidatedAt": "2026-10-10T17:09:24.781Z",
+      "listingValidatedCommit": "874cf2151ce5e49b0908cde38592451bf684ea57",
+      "listingValidatedAt": "2026-10-12T01:39:25.809Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -324766,8 +325615,8 @@
         "pluginIds": [
           "ubruckhaus.hue-lights"
         ],
-        "commit": "1790be45b00c4c37144ebfc57d3bc512d5baa1ae",
-        "checkedAt": "2026-10-10T17:09:24.700Z",
+        "commit": "874cf2151ce5e49b0908cde38592451bf684ea57",
+        "checkedAt": "2026-10-12T01:39:25.809Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -324782,7 +325631,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1790be45b00c4c37144ebfc57d3bc512d5baa1ae",
+          "validatedAt": "2026-10-10T17:09:24.781Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T01:39:25.809Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-hue-lights",
+            "pluginIds": [
+              "ubruckhaus.hue-lights"
+            ],
+            "commit": "1790be45b00c4c37144ebfc57d3bc512d5baa1ae",
+            "checkedAt": "2026-10-10T17:09:24.700Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/flyingtulipdotcom/omarchy-ft-bar",
@@ -325987,8 +326858,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T01:40:47.858Z",
-      "listingValidatedCommit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-      "listingValidatedAt": "2026-10-11T01:40:47.858Z",
+      "listingValidatedCommit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+      "listingValidatedAt": "2026-10-12T13:56:46.605Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -325997,35 +326868,14 @@
         "pluginIds": [
           "imranzero.2048"
         ],
-        "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-        "checkedAt": "2026-10-11T01:40:47.721Z",
+        "commit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+        "checkedAt": "2026-10-12T13:56:46.605Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "imranzero/omarchy-2048",
-        "pluginIds": [
-          "imranzero.2048"
-        ],
-        "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T01:40:47.721Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T01:37:27.683Z",
-        "requestEventId": 32966495706,
-        "requestedAt": "2026-10-11T01:40:19Z",
-        "reviewedAt": "2026-10-11T01:40:47.721Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "imranzero.2048": {
@@ -326036,7 +326886,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "imranzero/omarchy-2048",
+        "pluginIds": [
+          "imranzero.2048"
+        ],
+        "commit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T13:56:46.605Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T13:03:37.860Z",
+        "requestEventId": 33052982418,
+        "requestedAt": "2026-10-12T13:56:10Z",
+        "reviewedAt": "2026-10-12T13:56:46.605Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+          "validatedAt": "2026-10-11T01:40:47.858Z",
+          "branch": "master",
+          "supersededAt": "2026-10-12T13:56:46.605Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "imranzero/omarchy-2048",
+            "pluginIds": [
+              "imranzero.2048"
+            ],
+            "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+            "checkedAt": "2026-10-11T01:40:47.721Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "imranzero/omarchy-2048",
+            "pluginIds": [
+              "imranzero.2048"
+            ],
+            "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T01:40:47.721Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T01:37:27.683Z",
+            "requestEventId": 32966495706,
+            "requestedAt": "2026-10-11T01:40:19Z",
+            "reviewedAt": "2026-10-11T01:40:47.721Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nicknow/omarchy-nicknow-omatxtvw",
@@ -327519,8 +328435,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T18:47:08.216Z",
-      "listingValidatedCommit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
-      "listingValidatedAt": "2026-10-11T18:47:08.216Z",
+      "listingValidatedCommit": "606e3ce3a93e29188a580b699705a802c76195fd",
+      "listingValidatedAt": "2026-10-12T02:48:27.791Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -327529,8 +328445,8 @@
         "pluginIds": [
           "io.github.s3pp3ku.kyber-cursor"
         ],
-        "commit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
-        "checkedAt": "2026-10-11T18:47:08.139Z",
+        "commit": "606e3ce3a93e29188a580b699705a802c76195fd",
+        "checkedAt": "2026-10-12T02:48:27.791Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -327540,30 +328456,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "s3pp3ku/kyber-cursor",
-        "pluginIds": [
-          "io.github.s3pp3ku.kyber-cursor"
-        ],
-        "commit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T18:47:08.139Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T18:39:06.235Z",
-        "requestEventId": 32998670935,
-        "requestedAt": "2026-10-11T18:46:33Z",
-        "reviewedAt": "2026-10-11T18:47:08.139Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.s3pp3ku.kyber-cursor": {
@@ -327577,7 +328469,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "s3pp3ku/kyber-cursor",
+        "pluginIds": [
+          "io.github.s3pp3ku.kyber-cursor"
+        ],
+        "commit": "606e3ce3a93e29188a580b699705a802c76195fd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T02:48:27.791Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:35:53.995Z",
+        "requestEventId": 33015184353,
+        "requestedAt": "2026-10-12T02:47:59Z",
+        "reviewedAt": "2026-10-12T02:48:27.791Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
+          "validatedAt": "2026-10-11T18:47:08.216Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T02:48:27.791Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "s3pp3ku/kyber-cursor",
+            "pluginIds": [
+              "io.github.s3pp3ku.kyber-cursor"
+            ],
+            "commit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
+            "checkedAt": "2026-10-11T18:47:08.139Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "s3pp3ku/kyber-cursor",
+            "pluginIds": [
+              "io.github.s3pp3ku.kyber-cursor"
+            ],
+            "commit": "9411b26a28f5ff5db78019f681a5e4d2b920fcb5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T18:47:08.139Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T18:39:06.235Z",
+            "requestEventId": 32998670935,
+            "requestedAt": "2026-10-11T18:46:33Z",
+            "reviewedAt": "2026-10-11T18:47:08.139Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/GlacierHubAB/omarchy-den",
@@ -327714,8 +328681,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T20:22:53.044Z",
-      "listingValidatedCommit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
-      "listingValidatedAt": "2026-10-11T20:22:53.044Z",
+      "listingValidatedCommit": "0c6ce326582dc26b408cc1356bbb7424f1eaa0a1",
+      "listingValidatedAt": "2026-10-12T03:38:41.706Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -327724,8 +328691,8 @@
         "pluginIds": [
           "com.gaugedb.search"
         ],
-        "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
-        "checkedAt": "2026-10-11T20:22:52.955Z",
+        "commit": "0c6ce326582dc26b408cc1356bbb7424f1eaa0a1",
+        "checkedAt": "2026-10-12T03:38:41.706Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -327743,7 +328710,29 @@
           "headerLogo": "assets/img/logos/gaugedb.png",
           "previewKind": "logo"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
+          "validatedAt": "2026-10-11T20:22:53.044Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T03:38:41.706Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dyd4dsh7/gaugedb-omarchy",
+            "pluginIds": [
+              "com.gaugedb.search"
+            ],
+            "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
+            "checkedAt": "2026-10-11T20:22:52.955Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/uBruckhaus/omarchy-my-plugins",
@@ -327941,6 +328930,2109 @@
             "mode": "manual",
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/gfhdhytghd/hymission",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T22:15:25.180Z",
+      "listingValidatedCommit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+      "listingValidatedAt": "2026-10-11T22:15:25.180Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gfhdhytghd/hymission",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hymission"
+        ],
+        "commit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+        "checkedAt": "2026-10-11T22:15:25.045Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gfhdhytghd/hymission",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hymission"
+        ],
+        "commit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:15:25.045Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T22:09:13.278Z",
+        "requestEventId": 33006113289,
+        "requestedAt": "2026-10-11T22:14:55Z",
+        "reviewedAt": "2026-10-11T22:15:25.045Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gfhdhytghd.hymission": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/gfhdhytghd/HyprCapture",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T22:38:55.128Z",
+      "listingValidatedCommit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+      "listingValidatedAt": "2026-10-11T22:38:55.128Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gfhdhytghd/hyprcapture",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hyprcapture"
+        ],
+        "commit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+        "checkedAt": "2026-10-11T22:38:54.976Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gfhdhytghd/hyprcapture",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hyprcapture"
+        ],
+        "commit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:38:54.976Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T22:36:54.856Z",
+        "requestEventId": 33006897537,
+        "requestedAt": "2026-10-11T22:38:26Z",
+        "reviewedAt": "2026-10-11T22:38:54.976Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gfhdhytghd.hyprcapture": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/T-The-Coder/more-gestures",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T23:09:00.316Z",
+      "listingValidatedCommit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
+      "listingValidatedAt": "2026-10-11T23:09:00.316Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "t-the-coder/more-gestures",
+        "pluginIds": [
+          "more-gestures"
+        ],
+        "commit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
+        "checkedAt": "2026-10-11T23:09:00.171Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "more-gestures": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/kristjaningi/omarchy-touchline",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T23:12:13.302Z",
+      "listingValidatedCommit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
+      "listingValidatedAt": "2026-10-11T23:12:13.302Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kristjaningi/omarchy-touchline",
+        "pluginIds": [
+          "kristjaningi.touchline"
+        ],
+        "commit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
+        "checkedAt": "2026-10-11T23:12:13.189Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kristjaningi.touchline": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/LLMFAO/omarchy-jellyfin-cinema",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T23:34:20.067Z",
+      "listingValidatedCommit": "1f219998eafc0bf112c7462a2eb28128d0bac5e7",
+      "listingValidatedAt": "2026-10-11T23:34:20.067Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "llmfao/omarchy-jellyfin-cinema",
+        "pluginIds": [
+          "paul.jellyfin"
+        ],
+        "commit": "1f219998eafc0bf112c7462a2eb28128d0bac5e7",
+        "checkedAt": "2026-10-11T23:34:19.986Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "llmfao/omarchy-jellyfin-cinema",
+        "pluginIds": [
+          "paul.jellyfin"
+        ],
+        "commit": "1f219998eafc0bf112c7462a2eb28128d0bac5e7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T23:34:19.986Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T23:29:29.900Z",
+        "requestEventId": 33008661807,
+        "requestedAt": "2026-10-11T23:33:54Z",
+        "reviewedAt": "2026-10-11T23:34:19.986Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "paul.jellyfin": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/seunghan91/omarchy-drop-to-close",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T00:53:47.666Z",
+      "listingValidatedCommit": "a0e74df3c20e4902f42fc86208826a2d943e8d58",
+      "listingValidatedAt": "2026-10-12T00:53:47.666Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "seunghan91/omarchy-drop-to-close",
+        "pluginIds": [
+          "io.github.seunghan91.drop-to-close"
+        ],
+        "commit": "a0e74df3c20e4902f42fc86208826a2d943e8d58",
+        "checkedAt": "2026-10-12T00:53:47.577Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.seunghan91.drop-to-close": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/mulcahyio/omarchy-app-picker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T01:07:51.993Z",
+      "listingValidatedCommit": "5beac3289af3cf11d49a99f9937181244d927c29",
+      "listingValidatedAt": "2026-10-12T01:07:51.993Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mulcahyio/omarchy-app-picker",
+        "pluginIds": [
+          "mulcahyio.app-picker"
+        ],
+        "commit": "5beac3289af3cf11d49a99f9937181244d927c29",
+        "checkedAt": "2026-10-12T01:07:51.877Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mulcahyio/omarchy-app-picker",
+        "pluginIds": [
+          "mulcahyio.app-picker"
+        ],
+        "commit": "5beac3289af3cf11d49a99f9937181244d927c29",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:07:51.877Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:04:00.150Z",
+        "requestEventId": 33011675770,
+        "requestedAt": "2026-10-12T01:07:20Z",
+        "reviewedAt": "2026-10-12T01:07:51.877Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mulcahyio.app-picker": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/auggnation/omarchy-auggment-scoreboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T01:18:39.284Z",
+      "listingValidatedCommit": "3ef41b82d38a75631e9e1c82387a39ec70cdaab8",
+      "listingValidatedAt": "2026-10-12T01:18:39.284Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "auggnation/omarchy-auggment-scoreboard",
+        "pluginIds": [
+          "io.github.auggnation.auggment-scoreboard"
+        ],
+        "commit": "3ef41b82d38a75631e9e1c82387a39ec70cdaab8",
+        "checkedAt": "2026-10-12T01:18:39.157Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.auggnation.auggment-scoreboard": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/samcapshaw/dispatch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T01:57:39.418Z",
+      "listingValidatedCommit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+      "listingValidatedAt": "2026-10-12T01:57:39.418Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "samcapshaw/dispatch",
+        "pluginIds": [
+          "io.github.samcapshaw.dispatch"
+        ],
+        "commit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+        "checkedAt": "2026-10-12T01:57:39.326Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "samcapshaw/dispatch",
+        "pluginIds": [
+          "io.github.samcapshaw.dispatch"
+        ],
+        "commit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:57:39.326Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:53:00.271Z",
+        "requestEventId": 33013402030,
+        "requestedAt": "2026-10-12T01:57:10Z",
+        "reviewedAt": "2026-10-12T01:57:39.326Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.samcapshaw.dispatch": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "media",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaCanon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T02:04:02.214Z",
+      "listingValidatedCommit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+      "listingValidatedAt": "2026-10-12T02:04:02.214Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omacanon",
+        "pluginIds": [
+          "io.github.dankestrick.omacanon"
+        ],
+        "commit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+        "checkedAt": "2026-10-12T02:04:02.071Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omacanon",
+        "pluginIds": [
+          "io.github.dankestrick.omacanon"
+        ],
+        "commit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T02:04:02.071Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:58:44.059Z",
+        "requestEventId": 33013626282,
+        "requestedAt": "2026-10-12T02:03:32Z",
+        "reviewedAt": "2026-10-12T02:04:02.071Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dankestrick.omacanon": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/buschbrian/omarchy-night-sky",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T02:11:59.740Z",
+      "listingValidatedCommit": "7e5c4763ef36821fbf3e219861138095df24f02c",
+      "listingValidatedAt": "2026-10-12T02:11:59.740Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "buschbrian/omarchy-night-sky",
+        "pluginIds": [
+          "buschbrian.night-sky"
+        ],
+        "commit": "7e5c4763ef36821fbf3e219861138095df24f02c",
+        "checkedAt": "2026-10-12T02:11:59.608Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "buschbrian.night-sky": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/KitsuneForgering/FileOrganizer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T03:09:25.703Z",
+      "listingValidatedCommit": "714d51edbcd83322ec3640f68718a936f686c247",
+      "listingValidatedAt": "2026-10-12T03:09:25.703Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kitsuneforgering/fileorganizer",
+        "pluginIds": [
+          "kitsuneforgering.fileorganizer"
+        ],
+        "commit": "714d51edbcd83322ec3640f68718a936f686c247",
+        "checkedAt": "2026-10-12T03:09:25.569Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kitsuneforgering.fileorganizer": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/JPDoesDev/omarchy-magnifier",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T03:31:45.339Z",
+      "listingValidatedCommit": "fddba5a11de7af869eb61cb68b39ca1d6c9e320d",
+      "listingValidatedAt": "2026-10-12T03:31:45.339Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jpdoesdev/omarchy-magnifier",
+        "pluginIds": [
+          "jpdoesdev.magnifier"
+        ],
+        "commit": "fddba5a11de7af869eb61cb68b39ca1d6c9e320d",
+        "checkedAt": "2026-10-12T03:31:45.220Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jpdoesdev/omarchy-magnifier",
+        "pluginIds": [
+          "jpdoesdev.magnifier"
+        ],
+        "commit": "fddba5a11de7af869eb61cb68b39ca1d6c9e320d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T03:31:45.220Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T03:11:01.344Z",
+        "requestEventId": 33016684885,
+        "requestedAt": "2026-10-12T03:30:22Z",
+        "reviewedAt": "2026-10-12T03:31:45.220Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jpdoesdev.magnifier": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/stewartjarod/omarchy-audible",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T04:48:23.542Z",
+      "listingValidatedCommit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+      "listingValidatedAt": "2026-10-12T04:48:23.542Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "stewartjarod/omarchy-audible",
+        "pluginIds": [
+          "stewartjarod.audible"
+        ],
+        "commit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+        "checkedAt": "2026-10-12T04:48:23.414Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "stewartjarod/omarchy-audible",
+        "pluginIds": [
+          "stewartjarod.audible"
+        ],
+        "commit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T04:48:23.414Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T04:36:15.243Z",
+        "requestEventId": 33019535875,
+        "requestedAt": "2026-10-12T04:47:56Z",
+        "reviewedAt": "2026-10-12T04:48:23.415Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "stewartjarod.audible": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/pwn27sbx/stow-sync",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T05:09:00.546Z",
+      "listingValidatedCommit": "5cbfddb6f3c538a42952f86f9753912b889d6f55",
+      "listingValidatedAt": "2026-10-12T05:09:00.546Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pwn27sbx/stow-sync",
+        "pluginIds": [
+          "pwnsxb.stow-sync"
+        ],
+        "commit": "5cbfddb6f3c538a42952f86f9753912b889d6f55",
+        "checkedAt": "2026-10-12T05:09:00.393Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pwn27sbx/stow-sync",
+        "pluginIds": [
+          "pwnsxb.stow-sync"
+        ],
+        "commit": "5cbfddb6f3c538a42952f86f9753912b889d6f55",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T05:09:00.393Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T04:44:39.469Z",
+        "requestEventId": 33020300555,
+        "requestedAt": "2026-10-12T05:08:29Z",
+        "reviewedAt": "2026-10-12T05:09:00.393Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pwnsxb.stow-sync": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/hnry047/omarchy-netmount",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T05:14:11.311Z",
+      "listingValidatedCommit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+      "listingValidatedAt": "2026-10-12T05:14:11.311Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hnry047/omarchy-netmount",
+        "pluginIds": [
+          "hnry047.netmount"
+        ],
+        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+        "checkedAt": "2026-10-12T05:14:11.191Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hnry047/omarchy-netmount",
+        "pluginIds": [
+          "hnry047.netmount"
+        ],
+        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T05:14:11.191Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T05:10:48.796Z",
+        "requestEventId": 33020501489,
+        "requestedAt": "2026-10-12T05:13:40Z",
+        "reviewedAt": "2026-10-12T05:14:11.191Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hnry047.netmount": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/bonavr/omafolio",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T05:49:36.425Z",
+      "listingValidatedCommit": "79401f4e6e17d74d4ee27c540d0b6712c80d987f",
+      "listingValidatedAt": "2026-10-12T14:28:45.118Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bonavr/omafolio",
+        "pluginIds": [
+          "bonavr.omafolio"
+        ],
+        "commit": "79401f4e6e17d74d4ee27c540d0b6712c80d987f",
+        "checkedAt": "2026-10-12T14:28:45.118Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "plugins": {
+        "bonavr.omafolio": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bonavr/omafolio",
+        "pluginIds": [
+          "bonavr.omafolio"
+        ],
+        "commit": "79401f4e6e17d74d4ee27c540d0b6712c80d987f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T14:28:45.118Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T13:23:57.485Z",
+        "requestEventId": 33055435448,
+        "requestedAt": "2026-10-12T14:28:11Z",
+        "reviewedAt": "2026-10-12T14:28:45.118Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4c65cc1785ec38fd003eedd7fc0adaa48acb11e0",
+          "validatedAt": "2026-10-12T05:49:36.425Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T14:28:45.118Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bonavr/omafolio",
+            "pluginIds": [
+              "bonavr.omafolio"
+            ],
+            "commit": "4c65cc1785ec38fd003eedd7fc0adaa48acb11e0",
+            "checkedAt": "2026-10-12T05:49:36.299Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bonavr/omafolio",
+            "pluginIds": [
+              "bonavr.omafolio"
+            ],
+            "commit": "4c65cc1785ec38fd003eedd7fc0adaa48acb11e0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T05:49:36.299Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T05:37:46.038Z",
+            "requestEventId": 33021927939,
+            "requestedAt": "2026-10-12T05:48:47Z",
+            "reviewedAt": "2026-10-12T05:49:36.299Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-screenshot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T06:39:55.669Z",
+      "listingValidatedCommit": "6fc599a0cbcc99f7df367f20f15d6e5809ecdbee",
+      "listingValidatedAt": "2026-10-12T06:39:55.669Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-screenshot",
+        "pluginIds": [
+          "io.github.manateelazycat.screenshot"
+        ],
+        "commit": "6fc599a0cbcc99f7df367f20f15d6e5809ecdbee",
+        "checkedAt": "2026-10-12T06:39:55.524Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-screenshot",
+        "pluginIds": [
+          "io.github.manateelazycat.screenshot"
+        ],
+        "commit": "6fc599a0cbcc99f7df367f20f15d6e5809ecdbee",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T06:39:55.524Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T06:07:09.929Z",
+        "requestEventId": 33024281773,
+        "requestedAt": "2026-10-12T06:39:17Z",
+        "reviewedAt": "2026-10-12T06:39:55.524Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.manateelazycat.screenshot": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-switch-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:22:26.565Z",
+      "listingValidatedCommit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+      "listingValidatedAt": "2026-10-12T16:22:26.565Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-switch-display",
+        "pluginIds": [
+          "andy.switch-display"
+        ],
+        "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+        "checkedAt": "2026-10-12T16:22:26.433Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-switch-display",
+        "pluginIds": [
+          "andy.switch-display"
+        ],
+        "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:22:26.433Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T08:44:23.230Z",
+        "requestEventId": 33063533368,
+        "requestedAt": "2026-10-12T16:21:58Z",
+        "reviewedAt": "2026-10-12T16:22:26.433Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "andy.switch-display": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/Anky209e/omarchy-project_manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:26:59.131Z",
+      "listingValidatedCommit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+      "listingValidatedAt": "2026-10-12T16:26:59.131Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "anky209e/omarchy-project_manager",
+        "pluginIds": [
+          "io.github.anky209e.project-manager"
+        ],
+        "commit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+        "checkedAt": "2026-10-12T16:26:59.010Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "anky209e/omarchy-project_manager",
+        "pluginIds": [
+          "io.github.anky209e.project-manager"
+        ],
+        "commit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:26:59.010Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T06:43:14.475Z",
+        "requestEventId": 33063833602,
+        "requestedAt": "2026-10-12T16:26:27Z",
+        "reviewedAt": "2026-10-12T16:26:59.010Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.anky209e.project-manager": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/khaledSayed93/omarchy-task-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:36:37.807Z",
+      "listingValidatedCommit": "9ca91f3815a1f9fe19afbd5b5b44c8253cf4a0e0",
+      "listingValidatedAt": "2026-10-12T16:36:37.807Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "khaledsayed93/omarchy-task-manager",
+        "pluginIds": [
+          "io.github.9khaledsayed.task-manager"
+        ],
+        "commit": "9ca91f3815a1f9fe19afbd5b5b44c8253cf4a0e0",
+        "checkedAt": "2026-10-12T16:36:37.674Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.9khaledsayed.task-manager": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/mxKeaton/plugpatcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:40:19.622Z",
+      "listingValidatedCommit": "dabe4fd42c373ab5bdf0e37358fe558acc28c3b7",
+      "listingValidatedAt": "2026-10-12T16:40:19.622Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mxkeaton/plugpatcher",
+        "pluginIds": [
+          "io.github.mxkeaton.plugpatcher"
+        ],
+        "commit": "dabe4fd42c373ab5bdf0e37358fe558acc28c3b7",
+        "checkedAt": "2026-10-12T16:40:19.485Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mxkeaton/plugpatcher",
+        "pluginIds": [
+          "io.github.mxkeaton.plugpatcher"
+        ],
+        "commit": "dabe4fd42c373ab5bdf0e37358fe558acc28c3b7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:40:19.485Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T14:02:45.379Z",
+        "requestEventId": 33064525314,
+        "requestedAt": "2026-10-12T16:37:11Z",
+        "reviewedAt": "2026-10-12T16:40:19.485Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mxkeaton.plugpatcher": {
+          "category": "Developer Tools",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/soham3301/port-watcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:45:01.176Z",
+      "listingValidatedCommit": "d7569041f089cb2691f80a4f24a5efbf193d9066",
+      "listingValidatedAt": "2026-10-12T16:45:01.176Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "soham3301/port-watcher",
+        "pluginIds": [
+          "io.github.soham3301.port-watcher"
+        ],
+        "commit": "d7569041f089cb2691f80a4f24a5efbf193d9066",
+        "checkedAt": "2026-10-12T16:45:01.039Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "soham3301/port-watcher",
+        "pluginIds": [
+          "io.github.soham3301.port-watcher"
+        ],
+        "commit": "d7569041f089cb2691f80a4f24a5efbf193d9066",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:45:01.039Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T07:31:58.393Z",
+        "requestEventId": 33064988136,
+        "requestedAt": "2026-10-12T16:44:28Z",
+        "reviewedAt": "2026-10-12T16:45:01.039Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.soham3301.port-watcher": {
+          "category": "System",
+          "tags": [
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/leonavas/omarchy-slack",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:54:42.694Z",
+      "listingValidatedCommit": "07e9ffedcb64dc6c82044869d830c114237f19f0",
+      "listingValidatedAt": "2026-10-12T16:54:42.694Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leonavas/omarchy-slack",
+        "pluginIds": [
+          "leonavas.slack"
+        ],
+        "commit": "07e9ffedcb64dc6c82044869d830c114237f19f0",
+        "checkedAt": "2026-10-12T16:54:42.559Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "leonavas.slack": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/shaggyrs6-netizen/omarchy-first-boot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:58:31.445Z",
+      "listingValidatedCommit": "ca17c8784358756a286b5576e8122513d7662917",
+      "listingValidatedAt": "2026-10-12T16:58:31.445Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shaggyrs6-netizen/omarchy-first-boot",
+        "pluginIds": [
+          "shaggyrs6.first-boot"
+        ],
+        "commit": "ca17c8784358756a286b5576e8122513d7662917",
+        "checkedAt": "2026-10-12T16:58:31.301Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shaggyrs6-netizen/omarchy-first-boot",
+        "pluginIds": [
+          "shaggyrs6.first-boot"
+        ],
+        "commit": "ca17c8784358756a286b5576e8122513d7662917",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:58:31.301Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T10:06:17.025Z",
+        "requestEventId": 33065823741,
+        "requestedAt": "2026-10-12T16:57:46Z",
+        "reviewedAt": "2026-10-12T16:58:31.301Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "shaggyrs6.first-boot": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/zeroviger/omarchy-server-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:04:12.015Z",
+      "listingValidatedCommit": "e05642d847cfab22df8434e6ad97a3f0423116e4",
+      "listingValidatedAt": "2026-10-12T17:04:12.015Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zeroviger/omarchy-server-monitor",
+        "pluginIds": [
+          "mcp64.server-monitor"
+        ],
+        "commit": "e05642d847cfab22df8434e6ad97a3f0423116e4",
+        "checkedAt": "2026-10-12T17:04:11.929Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mcp64.server-monitor": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/arnaldo-delisio/omarchy-memory-oomd",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:09:41.967Z",
+      "listingValidatedCommit": "949499704ffb06be65d363b457b2d85dadaaa813",
+      "listingValidatedAt": "2026-10-12T17:09:41.967Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arnaldo-delisio/omarchy-memory-oomd",
+        "pluginIds": [
+          "io.github.arnaldo-delisio.memory-oomd"
+        ],
+        "commit": "949499704ffb06be65d363b457b2d85dadaaa813",
+        "checkedAt": "2026-10-12T17:09:41.814Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "arnaldo-delisio/omarchy-memory-oomd",
+        "pluginIds": [
+          "io.github.arnaldo-delisio.memory-oomd"
+        ],
+        "commit": "949499704ffb06be65d363b457b2d85dadaaa813",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T17:09:41.814Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T10:31:55.749Z",
+        "requestEventId": 33066548682,
+        "requestedAt": "2026-10-12T17:09:04Z",
+        "reviewedAt": "2026-10-12T17:09:41.814Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.arnaldo-delisio.memory-oomd": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/chizzler/Bluechip",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:14:36.256Z",
+      "listingValidatedCommit": "0ff19e3b9640711341f310ca980a067a54313de0",
+      "listingValidatedAt": "2026-10-12T17:14:36.256Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "chizzler/bluechip",
+        "pluginIds": [
+          "io.github.chizzler.bluechip"
+        ],
+        "commit": "0ff19e3b9640711341f310ca980a067a54313de0",
+        "checkedAt": "2026-10-12T17:14:36.115Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.chizzler.bluechip": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/lAvArt/omacommand",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:23:07.814Z",
+      "listingValidatedCommit": "a5bb9f0e72b1373e7ac1c8fe1113c9307094c8c0",
+      "listingValidatedAt": "2026-10-12T17:23:07.814Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lavart/omacommand",
+        "pluginIds": [
+          "io.github.lavart.omacommand"
+        ],
+        "commit": "a5bb9f0e72b1373e7ac1c8fe1113c9307094c8c0",
+        "checkedAt": "2026-10-12T17:23:07.735Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.lavart.omacommand": {
+          "category": "Desktop",
+          "tags": [
+            "ai",
+            "hyprland",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/FernandoTechSpace/jarvis-monitor-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:31:55.726Z",
+      "listingValidatedCommit": "79adc301ed235af9a160dff644ff86172747a39d",
+      "listingValidatedAt": "2026-10-12T17:31:55.726Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fernandotechspace/jarvis-monitor-omarchy",
+        "pluginIds": [
+          "fernando.jarvis-monitor"
+        ],
+        "commit": "79adc301ed235af9a160dff644ff86172747a39d",
+        "checkedAt": "2026-10-12T17:31:55.616Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fernando.jarvis-monitor": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/soham3301/display-particles",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:35:03.553Z",
+      "listingValidatedCommit": "3a933ff9a4100b22d9d0dd19e946d559c570ea65",
+      "listingValidatedAt": "2026-10-12T17:35:03.553Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "soham3301/display-particles",
+        "pluginIds": [
+          "io.github.soham3301.display-particles"
+        ],
+        "commit": "3a933ff9a4100b22d9d0dd19e946d559c570ea65",
+        "checkedAt": "2026-10-12T17:35:03.418Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.soham3301.display-particles": {
+          "category": "Appearance",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/lAvArt/gridfall",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:40:50.374Z",
+      "listingValidatedCommit": "e1c8afcc88f8581986f8ca13f9d887a77259d656",
+      "listingValidatedAt": "2026-10-12T17:40:50.374Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lavart/gridfall",
+        "pluginIds": [
+          "io.github.lavart.gridfall"
+        ],
+        "commit": "e1c8afcc88f8581986f8ca13f9d887a77259d656",
+        "checkedAt": "2026-10-12T17:40:50.236Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.lavart.gridfall": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/MrUranium1/Omanet",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:44:18.571Z",
+      "listingValidatedCommit": "93ad7fb51d2dfc66651f3f5f1ed3638882a8705c",
+      "listingValidatedAt": "2026-10-12T17:44:18.571Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mruranium1/omanet",
+        "pluginIds": [
+          "mehir.usb-internet-share"
+        ],
+        "commit": "93ad7fb51d2dfc66651f3f5f1ed3638882a8705c",
+        "checkedAt": "2026-10-12T17:44:18.430Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mruranium1/omanet",
+        "pluginIds": [
+          "mehir.usb-internet-share"
+        ],
+        "commit": "93ad7fb51d2dfc66651f3f5f1ed3638882a8705c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T17:44:18.430Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T14:34:12.646Z",
+        "requestEventId": 33068656196,
+        "requestedAt": "2026-10-12T17:43:26Z",
+        "reviewedAt": "2026-10-12T17:44:18.431Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mehir.usb-internet-share": {
+          "category": "System",
+          "tags": [
+            "quickshell",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/joseluiss2003/joseluis.control-center",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:50:44.150Z",
+      "listingValidatedCommit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+      "listingValidatedAt": "2026-10-12T17:50:44.150Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "joseluiss2003/joseluis.control-center",
+        "pluginIds": [
+          "joseluis.control-center"
+        ],
+        "commit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+        "checkedAt": "2026-10-12T17:50:44.011Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "joseluiss2003/joseluis.control-center",
+        "pluginIds": [
+          "joseluis.control-center"
+        ],
+        "commit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T17:50:44.011Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T17:01:59.540Z",
+        "requestEventId": 33069071479,
+        "requestedAt": "2026-10-12T17:50:08Z",
+        "reviewedAt": "2026-10-12T17:50:44.011Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "joseluis.control-center": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/jburchel/omarchy-assistant",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:03:23.311Z",
+      "listingValidatedCommit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+      "listingValidatedAt": "2026-10-12T18:03:23.311Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jburchel/omarchy-assistant",
+        "pluginIds": [
+          "io.github.jburchel.omarchy-assistant"
+        ],
+        "commit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+        "checkedAt": "2026-10-12T18:03:23.172Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jburchel/omarchy-assistant",
+        "pluginIds": [
+          "io.github.jburchel.omarchy-assistant"
+        ],
+        "commit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T18:03:23.172Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T17:56:10.019Z",
+        "requestEventId": 33069818487,
+        "requestedAt": "2026-10-12T18:02:28Z",
+        "reviewedAt": "2026-10-12T18:03:23.172Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jburchel.omarchy-assistant": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/FernandoTechSpace/jarvis-ai-monitor-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:14:02.762Z",
+      "listingValidatedCommit": "1afd084fdd534dcc06170a005cbc5a8a2bc63730",
+      "listingValidatedAt": "2026-10-12T18:14:02.762Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fernandotechspace/jarvis-ai-monitor-omarchy",
+        "pluginIds": [
+          "fernando.jarvis-ai-monitor"
+        ],
+        "commit": "1afd084fdd534dcc06170a005cbc5a8a2bc63730",
+        "checkedAt": "2026-10-12T18:14:02.611Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fernando.jarvis-ai-monitor": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/akitaonrails/omarchy-cheatsheets",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:43:44.523Z",
+      "listingValidatedCommit": "a94d8b2cf24b245d3b104dd4d3ff6c91938d4a1c",
+      "listingValidatedAt": "2026-10-12T18:43:44.523Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akitaonrails/omarchy-cheatsheets",
+        "pluginIds": [
+          "akitaonrails.cheatsheets"
+        ],
+        "commit": "a94d8b2cf24b245d3b104dd4d3ff6c91938d4a1c",
+        "checkedAt": "2026-10-12T18:43:44.389Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "akitaonrails/omarchy-cheatsheets",
+        "pluginIds": [
+          "akitaonrails.cheatsheets"
+        ],
+        "commit": "a94d8b2cf24b245d3b104dd4d3ff6c91938d4a1c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T18:43:44.389Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T18:34:15.564Z",
+        "requestEventId": 33072331890,
+        "requestedAt": "2026-10-12T18:43:14Z",
+        "reviewedAt": "2026-10-12T18:43:44.389Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "akitaonrails.cheatsheets": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/shaggyrs6-netizen/omarchy-scratchview",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:54:04.457Z",
+      "listingValidatedCommit": "f058493dbead83a108281e78e9b4cc1b66cc541a",
+      "listingValidatedAt": "2026-10-12T18:54:04.457Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shaggyrs6-netizen/omarchy-scratchview",
+        "pluginIds": [
+          "shaggyrs6.scratchview"
+        ],
+        "commit": "f058493dbead83a108281e78e9b4cc1b66cc541a",
+        "checkedAt": "2026-10-12T18:54:04.347Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "shaggyrs6.scratchview": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/ianswope/g7-companion",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:57:34.670Z",
+      "listingValidatedCommit": "3c720b3356141283b3aad6dc1f85b6763844fb7a",
+      "listingValidatedAt": "2026-10-12T18:57:34.670Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ianswope/g7-companion",
+        "pluginIds": [
+          "ianswope.g7-companion"
+        ],
+        "commit": "3c720b3356141283b3aad6dc1f85b6763844fb7a",
+        "checkedAt": "2026-10-12T18:57:34.528Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ianswope.g7-companion": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/MaNi4/omarchy-job-queues",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T19:21:41.103Z",
+      "listingValidatedCommit": "1c1a09778f94481998982201b917b5dc3b8782d5",
+      "listingValidatedAt": "2026-10-12T19:21:41.103Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mani4/omarchy-job-queues",
+        "pluginIds": [
+          "mani4.job-queues"
+        ],
+        "commit": "1c1a09778f94481998982201b917b5dc3b8782d5",
+        "checkedAt": "2026-10-12T19:21:40.942Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mani4.job-queues": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/yeutterg/omarchy-display-rotation",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T19:27:03.932Z",
+      "listingValidatedCommit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+      "listingValidatedAt": "2026-10-12T19:27:03.932Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yeutterg/omarchy-display-rotation",
+        "pluginIds": [
+          "io.github.yeutterg.display-rotation"
+        ],
+        "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+        "checkedAt": "2026-10-12T19:27:03.792Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yeutterg/omarchy-display-rotation",
+        "pluginIds": [
+          "io.github.yeutterg.display-rotation"
+        ],
+        "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T19:27:03.792Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T19:22:17.031Z",
+        "requestEventId": 33075108995,
+        "requestedAt": "2026-10-12T19:26:34Z",
+        "reviewedAt": "2026-10-12T19:27:03.793Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.yeutterg.display-rotation": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
+    },
+    {
+      "repo": "https://github.com/yeutterg/omarchy-lock-pin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T19:44:16.552Z",
+      "listingValidatedCommit": "4318bd4ebc96891c71992aa423e3c35adc3e7003",
+      "listingValidatedAt": "2026-10-12T19:44:16.552Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yeutterg/omarchy-lock-pin",
+        "pluginIds": [
+          "io.github.yeutterg.lock-pin"
+        ],
+        "commit": "4318bd4ebc96891c71992aa423e3c35adc3e7003",
+        "checkedAt": "2026-10-12T19:44:16.443Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.yeutterg.lock-pin": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
         }
       }
     }
