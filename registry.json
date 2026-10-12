@@ -327740,7 +327740,8 @@
             "quickshell"
           ],
           "manifestPath": "manifest.json",
-          "iconFromPreview": true
+          "headerLogo": "assets/img/logos/gaugedb.png",
+          "previewKind": "logo"
         }
       }
     },
