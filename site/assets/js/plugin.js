@@ -21,7 +21,7 @@ import {
   showToast,
   updateEngagementSummary,
   updatePluginHeart
-} from "./shared.js?v=20261013-01";
+} from "./shared.js?v=20261013-02";
 import {
   engagementApiBaseUrl,
   hasPluginHeart,
@@ -29,8 +29,8 @@ import {
   recordPluginCopy,
   recordPluginHeart,
   recordPluginView,
-} from "./engagement.js?v=20261013-01";
-import { repositoryPublisher } from "./search.js?v=20261013-01";
+} from "./engagement.js?v=20261013-02";
+import { repositoryPublisher } from "./search.js?v=20261013-02";
 
 function safeGitHubWebUrl(value) {
   try {
@@ -166,7 +166,7 @@ export function detailTemplate(plugin, engagement, {
   const detailIcon = `${escapeHtml(plugin.initials)}${logoSource ? `<img data-detail-logo src="${escapeHtml(logoSource)}" alt="" width="52" height="52">` : ""}`;
   const previewLabel = plugin.previewKind === "logo" ? "logo" : "desktop preview";
   const preview = plugin.previewImage
-    ? `<button class="detail-preview" type="button" data-preview-open data-full-src="${escapeHtml(plugin.previewImage)}" aria-label="${escapeHtml(`Open ${plugin.name} preview`)}"><img src="${escapeHtml(plugin.previewImage)}" alt="${escapeHtml(plugin.name)} ${previewLabel}" width="${Number(plugin.previewWidth) || 1600}" height="${Number(plugin.previewHeight) || 900}"></button>`
+    ? `<button class="detail-preview${plugin.previewKind === "logo" ? " detail-preview--logo" : ""}" type="button" data-preview-open data-full-src="${escapeHtml(plugin.previewImage)}" aria-label="${escapeHtml(`Open ${plugin.name} preview`)}"><img src="${escapeHtml(plugin.previewImage)}" alt="${escapeHtml(plugin.name)} ${previewLabel}" width="${Number(plugin.previewWidth) || 1600}" height="${Number(plugin.previewHeight) || 900}"></button>`
     : "";
   const installAvailable = marketplaceInstallAvailable(plugin);
   const pluginStatus = displayedStatus(plugin);
